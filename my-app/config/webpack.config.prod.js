@@ -296,6 +296,12 @@ module.exports = {
                     },
                   },
                 ],
+                [
+                  'transform-runtime', ['import', {
+                  libraryName: 'antd-mobile',
+                  style: 'css'
+                  }]
+                ]
               ],
               cacheDirectory: true,
               // Save disk space when time isn't as important
